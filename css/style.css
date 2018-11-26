@@ -1,0 +1,100 @@
+body{
+    background-image: url("https://wallpaper-gallery.net/images/wallpaper-and-backgrounds/wallpaper-and-backgrounds-2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav {
+    word-spacing: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    padding: 0px;
+    margin: 0px;
+    text-decoration-line: none;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.content {
+    text-align: center;
+}
+
+img {
+    padding: 10px;
+    width: 15%;
+    height: 15%;
+}
+
+a:link {
+    text-decoration: underline;
+    color: blue;
+  }
+  
+  a:visited {
+    color: powderblue;
+  }
+  
+  a:hover {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: white;
+  }
+
+header {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+
+p {
+    font-size: 20px;
+    font-style: oblique;
+   
+}
+
+.me {
+    font-size: 30px;
+}
+
+.education {
+    text-align: center;
+    font-size: 30px;
+}
+
+.container {
+    padding-right: 10%;
+    padding-left: 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.h3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+h3 {
+    font-size: 25px;
+    font-style: italic;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+
+
+
