@@ -12,7 +12,6 @@ nav {
     margin: 0px;
     text-decoration-line: none;
     
-
 }
 
 html {
@@ -29,9 +28,16 @@ img {
     height: 15%;
 }
 
+.icons {
+    font-size: 40px;
+    word-spacing: 30px;
+    line-height: 20px;
+
+}
+
 a:link {
     text-decoration: underline;
-    color: blue;
+    color: darkred;
   }
   
   a:visited {
