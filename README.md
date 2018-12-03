@@ -18,4 +18,4 @@ Contributors:
 Natalie Daniels
 
 #Live Link 
- https://nataliennd.github.io/New-CV/
+
