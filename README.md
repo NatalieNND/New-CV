@@ -17,7 +17,7 @@ Javascript
 Contributors:
 Natalie Daniels
 
-#Live Link:
+#Live Link:https://nataliennd.github.io/New-CV/
 
 
 
