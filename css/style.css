@@ -11,6 +11,7 @@ nav {
     padding: 0px;
     margin: 0px;
     text-decoration-line: none;
+    position: fixed;
     
 }
 
@@ -20,10 +21,11 @@ html {
 
 .content {
     text-align: center;
+    padding-top: 60px;
 }
 
 img {
-    padding: 10px;
+    padding-top: 60px;
     width: 15%;
     height: 15%;
 }
@@ -36,7 +38,7 @@ img {
 }
 
 a:link {
-    text-decoration: underline;
+    text-decoration: none;
     color: darkred;
   }
   
@@ -55,6 +57,7 @@ a:link {
   }
 
 header {
+    padding-top: 60px;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
@@ -105,6 +108,19 @@ h3 {
 }
 
 /* media queries */
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    nav {
+        font-size: 20px;
+
+
+    }
+
+}
 
 
 
