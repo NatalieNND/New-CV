@@ -1,6 +1,6 @@
 body{
     /* background-image: url("https://wallpaper-gallery.net/images/wallpaper-and-backgrounds/wallpaper-and-backgrounds-2.jpg"); */
-    background-image: url("../img/maldivy_plyazh_tropiki_more_pesok_ostrov_lodka_84583_1920x1080.jpg");
+    background-image: url("../img/Laptop-Wallpapers-Black-HD-hd-background-wallpapers-amazing-cool-tablet-smart-phone-4k-high-definition-1920x1200.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -16,7 +16,37 @@ nav {
     padding-top: 20px;
     text-align: center;
     
+    
 }
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+  display: grid;
+}
+
+.dropdown-content {
+    display: grid;
+    background-color: black;
+    font-size: 30px;
+    /* min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1; */
+}
+
+
+.dropdown-content a:hover {background-color: red;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: black;}
+
 
 html {
     scroll-behavior: smooth;
@@ -39,6 +69,7 @@ img {
     word-spacing: 30px;
     line-height: 20px;
     color: white;
+    
 
 }
 
@@ -124,6 +155,10 @@ h3 {
     
 }
 
+.footer {
+    text-align: center;
+}
+
 /* media queries */
 
 @media only screen 
@@ -133,13 +168,24 @@ h3 {
 
     nav {
         font-size: 20px;
-        text-align: center;
+        text-align: left;
         padding-top: 50px;
 
 
     }
 
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        text-align: center;
+        font-size: 30px;
+    
+    }
+
 }
+
+
+
 
 
 
