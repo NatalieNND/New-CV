@@ -3,7 +3,7 @@ body{
     background-image: url("../img/Laptop-Wallpapers-Black-HD-hd-background-wallpapers-amazing-cool-tablet-smart-phone-4k-high-definition-1920x1200.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 30px;
+    /* background-position: 30px; */
     
 }
 
@@ -37,9 +37,7 @@ nav {
     display: grid;
     background-color: black;
     font-size: 30px;
-    /* min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1; */
+    
 }
 
 
@@ -57,7 +55,7 @@ html {
 .content {
     text-align: center;
     padding-top: 20px;
-    color: black;
+    color: white;
 }
 
 img {
@@ -77,11 +75,11 @@ img {
 
 a:link {
     text-decoration: none;
-    color: darkred;
+    color: gold;
   }
   
   a:visited {
-    color: darkred;
+    color: gold;
   }
   
   a:hover {
@@ -99,12 +97,7 @@ header {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
-    background-image: url("");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    color: black;
+    color: white;
     
 }
 
@@ -112,7 +105,7 @@ header {
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
-    color: black;
+    color: white;
 
 }
 
@@ -120,19 +113,19 @@ header {
 p {
     font-size: 25px;
     font-style: oblique;
-    color: black;
+    color: white;
    
 }
 
 .me {
     font-size: 40px;
-    color: black;
+    color: white;
 }
 
 .education {
     text-align: center;
     font-size: 40px;
-    color: black;
+    color: white;
 }
 
 .container {
@@ -143,7 +136,7 @@ p {
 }
 h2 {
     font-size: 30px;
-    color: black;
+    color: white;
 
 }
 .h3 {
@@ -155,12 +148,12 @@ h2 {
 h3 {
     font-size: 30px;
     font-style: italic;
-    color: black;
+    color: white;
     
 }
 
 #demo {
-    color: darkred;
+    color: white;
     padding-left: 70px;
     padding-right: 70px;
 }
