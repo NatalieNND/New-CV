@@ -16,32 +16,30 @@ nav {
     padding-left: 70px;
     text-decoration-line: none;
     position: fixed;
-    padding-top: 20px;
     background-color: black;
     
     
 }
 
-.dropbtn {
+/* .dropbtn {
     background-color: black;
     color: white;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
     padding: 16px;
     font-size: 16px;
     border: none;
-}
+} */
 
 /* .dropdown {
   display: grid;
 } */
 
 .dropdown-content {
-    /* display: grid; */
-    background-color: black;
-    font-size: 30px;
-    /* padding-left: 90px;
-    padding-right: 90px;
-     */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 
@@ -65,9 +63,13 @@ img {
     font-size: 40px;
     word-spacing: 30px;
     line-height: 20px;
-    color: white;
+    /* color: white; */
     
+}
 
+.icons,p {
+    text-align: center;
+    
 }
 
 a:link {
@@ -106,6 +108,13 @@ header {
 
 }
 
+.work {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
 
 p {
     font-size: 25px;
@@ -124,6 +133,7 @@ p {
     font-size: 40px;
     color: white;
 }
+
 
 .container {
     padding-right: 10%;
@@ -165,6 +175,25 @@ h3 {
     text-align: center;
 }
 
+* {box-sizing: border-box}
+
+.container {
+  width: 100%;
+  
+  /* background-color: #ddd; */
+}
+
+.skills {
+  text-align: right;
+  padding: 10px;
+  /* color: white; */
+}
+
+.html {width: 90%; background-color: darkred; margin-left: 40%;}
+.css {width: 80%; background-color: blue; margin-left: 40%;}
+.javascript {width: 65%; background-color: gold; margin-left: 40%;}
+.sass {width: 50%; background-color: black; margin-left: 40%;}
+
 /* media queries */
 
 @media only screen 
@@ -190,6 +219,13 @@ h3 {
         text-align: center;
         font-size: 30px;
     
+    }
+
+    .dropdown-content {
+
+        display: grid;
+        grid-template-columns: 1fr;
+
     }
 
 }
